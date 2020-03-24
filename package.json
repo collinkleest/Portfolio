@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This repository is for my personal portfolio. This portfolio is being built with HTML5, CSS3, Vanilla Javascript and Bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/_main.sass css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collinkleest/portfolio.git"
+  },
+  "author": "collin k kleest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collinkleest/portfolio/issues"
+  },
+  "homepage": "https://github.com/collinkleest/portfolio#readme",
+  "dependencies": {
+    "sass": "^1.26.3"
+  }
+}
