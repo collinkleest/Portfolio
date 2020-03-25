@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>Projects</title>
+        <!--CSS DEFINITIONS-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="icon" href="../img/logo1.png">
         <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/projects.css">
+        <!------------------->
+
+
+        <!--ICON & TITLE-->
+        <link rel="icon" href="../img/logo1.png">
+        <title>Projects</title>
+        <!---------------->
+        
+        <!--META DATA-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Collin K Kleest Personal Portfolio Website">
+        <meta name="keywords" content="Collin K Kleest, Collin Kleest, Collin, Kleest, PSU, IST, Penn State, Infomation Sciences and Technology, Software">
+        <meta name="author" content="Collin Klest">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!------------->
+
+
+        <!--FONTS-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <!--------->
     </head>
     <body>
         
@@ -63,30 +82,95 @@
             </div>
         </footer>
 
-        <h1>My Projects</h1>
+        <div class="h-container">
+            <h1>My Projects</h1>
+        </div>
 
         <!--Project Cards-->
-        <div class="row row-cols-1 row-cols-md-2">
-            
-            <div class="col mb-4">
-                <div class="card bg-dark text-white" style="width: 400px;">
-                    <img src="../img/card-images/python-logo.png" class="card-img-top" alt="python">
-                    <div class="card-body">
-                        <h5 class="card-title">Python Github CLI Automation</h5>
-                        <p class="card-text">
-                            In this project I created a github command line automation tool.
-                            This tool uses the github api to automate github commands.
-                        </p>
-                        <div class="card-footer">
-                            <a class="card-link" href="https://github.com/collinkleest/GitHub_CLI_Automator"> Link to project on Github </a>
-                        </div>
+        <!--Deck 1-->
+        <div class="custom-deck">
+            <div class="card bg-dark text-white p-left" style="width: 400px;">
+                <img src="../img/card-images/python-logo.png" class="card-img-top img-resize" alt="python">
+                <div class="card-body c-text">
+                    <h5 class="card-title">Python Github CLI Automation</h5>
+                    <p class="card-text">
+                        In this project I created a github command line automation tool.
+                        This tool uses the github api to automate github commands.
+                    </p>
+                    <div class="card-footer">
+                        <a class="card-link" href="https://github.com/collinkleest/GitHub_CLI_Automator"> Link to project on Github </a>
                     </div>
                 </div>
             </div>
-
-
-        </div>        
+            <div class="card bg-dark text-white p-left" style="width: 400px;">
+                <img src="../img/card-images/kong.png" class="card-img-top img-resize" alt="python">
+                <div class="card-body c-text">
+                    <h5 class="card-title">Kong API Gateway Work</h5>
+                    <p class="card-text">
+                        Discover my work with Kong's open source API gateway.
+                    </p>
+                    <div class="card-footer">
+                        <a class="card-link" href="https://github.com/collinkleest/Kong-API-Gateway">Kong on Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-dark text-white p-left" style="width: 400px;">
+                <img src="../img/card-images/rpi.png" class="card-img-top img-resize" alt="python">
+                <div class="card-body c-text">
+                    <h5 class="card-title">Raspberry Pi Power Monitoring System</h5>
+                    <p class="card-text">
+                        Check out my work on a creating a power monitoring system with the Raspberry Pi and Python.
+                    </p>
+                    <div class="card-footer">
+                        <a class="card-link" href="https://github.com/collinkleest/Raspberry-Pi-Power-Monitor">Documentation and Code on Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------->
+        <!--Deck 2-->
+        <div class="custom-deck">
+            <div class="card bg-dark text-white p-left" style="width: 400px;">
+                <img src="../img/card-images/ledboard.svg" class="card-img-top img-resize" alt="python">
+                <div class="card-body c-text">
+                    <h5 class="card-title">LED Game built with RPI</h5>
+                    <p class="card-text">
+                        Take a look at the code I wrote to run a LED game on the raspberry pi!
+                    </p>
+                    <div class="card-footer">
+                        <a class="card-link" href="https://github.com/collinkleest/ledGame">View Project on github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-dark text-white p-left" style="width: 400px;">
+                <img src="../img/card-images/port-stack.png" class="card-img-top img-resize" alt="python">
+                <div class="card-body c-text">
+                    <h5 class="card-title">Personal Portfolio Site</h5>
+                    <p class="card-text">
+                        Take a look at the source code for my portfolio!
+                        Built with HTML5, CSS3, Bootstrap, Sass, and Bootstrap.
+                    </p>
+                    <div class="card-footer">
+                        <a class="card-link" href="https://github.com/collinkleest/portfolio">View Project on github</a>
+                    </div>
+                </div>
+            </div>
         
+            <div class="card bg-dark text-white p-left" style="width: 400px;">
+                <img src="../img/card-images/fedora.png" class="card-img-top img-resize" alt="python">
+                <div class="card-body c-text">
+                    <h5 class="card-title">Home Server Build</h5>
+                    <p class="card-text">
+                        Check out my home server build!
+                    </p>
+                    <div class="card-footer">
+                        <a class="card-link" href="https://github.com/collinkleest/Multi-Use-Home-Server-Project">View Project on github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------->
+        <!------------------>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
