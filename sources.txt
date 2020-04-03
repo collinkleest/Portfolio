@@ -12,3 +12,5 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/102
 https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png
 https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/1200px-CSS.3.svg.png
 https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fedora_logo.svg/1200px-Fedora_logo.svg.png
+https://avatars0.githubusercontent.com/u/2159051?s=400&v=4
+https://icons8.com/icon/38557/dev-post

@@ -4,7 +4,7 @@
   "description": "This repository is for my personal portfolio. This portfolio is being built with HTML5, CSS3, Vanilla Javascript and Bootstrap.",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch sass/_main.sass css/main.css"
+    "sass": "sass --watch sass/_styles.sass:css/styles.css sass/_animate.sass:css/animate.css sass/_main.sass:css/main.css"
   },
   "repository": {
     "type": "git",

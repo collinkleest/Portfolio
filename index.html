@@ -1,90 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!--CSS DEFINITIONS-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/main.css">
-        <!------------------->
+
+<head>
+    <!--CSS DEFINITIONS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!------------------->
 
 
-        <!--ICON & TITLE-->
-        <link rel="icon" href="img/logo1.png">
-        <title>Collin K Kleest</title>
-        <!---------------->
-        
-        <!--META DATA-->
-        <meta charset="UTF-8">
-        <meta name="description" content="Collin K Kleest Personal Portfolio Website">
-        <meta name="keywords" content="Collin K Kleest, Collin Kleest, Collin, Kleest, PSU, IST, Penn State, Infomation Sciences and Technology, Software">
-        <meta name="author" content="Collin Klest">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!------------->
+    <!--ICON & TITLE-->
+    <link rel="icon" href="img/logo1.png">
+    <title>Collin K Kleest</title>
+    <!---------------->
+
+    <!--META DATA-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Collin K Kleest Personal Portfolio Website">
+    <meta name="keywords"
+        content="Collin K Kleest, Collin Kleest, Collin, Kleest, PSU, IST, Penn State, Infomation Sciences and Technology, Software">
+    <meta name="author" content="Collin Klest">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!------------->
 
 
-        <!--FONTS-->
-        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-        <!--------->
-    </head>
-    <body>
-        
-        <!--navigation bar-->
-        
-        <nav class="navbar navbar-dark bg-dark fixed-top">
-           
-            <div class="nav-item">
-                <a class="navbar-brand" href="index.html"> 
-                    <img src="img/logo1.png" height=75 width=75>
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <!--------->
+</head>
+
+<body>
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand " href="index.html">
+            <img src="img/logo1.png" height="70" alt="ck-logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link hover-nav" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hover-nav" href="src/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hover-nav" href="src/projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hover-nav" href="src/resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hover-nav" href="src/contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Navigation Bar-->
+
+    <!--Main Content-->
+    <section class="site-hero" style="background-image: url(img/portraits/wide-shot.jpg);" id="section-home"
+        data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row intro-text align-items-center justify-content-center">
+                <div class="col-md-10 text-center">
+                    <h1 class="site-heading site-animate">
+                        Hello, I'm
+                        <strong>Collin Kleest</strong>
+                    </h1>
+                    <p class="lead site-subheading mb-4 site-animate">
+                        <strong>
+                            I'm a full stack developer, that loves learning new technologies.
+                            I am a undergraduate Schreyer student at Penn State University studying Infomation
+                            Sciences and Technology.
+                        </strong>
+                    </p>
+                    <p><a href="src/about.html" class="smoothscroll btn btn-primary px-4 py-3">Learn More about
+                            Me!</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Main Content-->
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-icons">
+            <div class="icon" data-toggle="tooltip" data-placement="top" title="Visit my Linkedin!">
+                <a href="https://linkedin.com/in/collinkleest">
+                    <img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" alt="linkedin logo" width=64
+                        height=64>
                 </a>
             </div>
-
-            <div class="d-flex flex-row bd-highlight">
-                <div class="nav-item p-2 bd-highlight ">
-                   <a class="nav-link btn btn-outline-primary" href="src/about.html">About</a>
-                </div>
-
-                <div class="nav-item p-2 bd-highlight ">   
-                   <a class="nav-link btn btn-outline-primary" href="src/projects.html">Projects</a>
-                </div>
-                
-                <div class="nav-item p-2 bd-highlight ">
-                    <a class="nav-link btn btn-outline-primary" href="src/resume.html">Resume</a>
-                 </div>
-
-                <div class="nav-item p-2 bd-highlight ">
-                   <a class="nav-link btn btn-outline-primary" href="src/contact.html">Contact</a>
-                </div>
+            <div class="icon" data-toggle="tooltip" data-placement="top" title="Checkout my code!">
+                <a href="https://github.com/collinkleest">
+                    <img src="https://img.icons8.com/color/96/000000/github--v1.png" alt="github" width=55 height=55>
+                </a>
             </div>
-        </nav>
-
-
-        <!--footer-->
-        <footer class="footer">
-            <div class="footer-icons">
-                <div class="icon" data-toggle="tooltip" data-placement="top" title="Visit my Linkedin!">
-                    <a href="https://linkedin.com/in/collinkleest" > 
-                        <img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" alt="linkedin logo" width=64 height=64>
-                    </a>
-                </div>
-                <div class="icon" data-toggle="tooltip" data-placement="top" title="Checkout my code!">
-                    <a href="https://github.com/collinkleest"> 
-                        <img src="https://img.icons8.com/color/96/000000/github--v1.png" alt="github" width=55 height=55>
-                    </a>
-                </div>
-                <div class="icon" data-toggle="tooltip" data-placement="top" title="Watch my videos!">
-                    <a href="https://www.youtube.com/channel/UCmTsz3Z6GxzTxfwGTz7nKkg?view_as=subscriber"> 
-                        <img src="https://img.icons8.com/cotton/128/000000/youtube.png" alt="youtube" width=64 height=64>
-                    </a>
-                </div>
+            <div class="icon" data-toggle="tooltip" data-placement="top" title="Watch my videos!">
+                <a href="https://www.youtube.com/channel/UCmTsz3Z6GxzTxfwGTz7nKkg?view_as=subscriber">
+                    <img src="https://img.icons8.com/cotton/128/000000/youtube.png" alt="youtube" width=64 height=64>
+                </a>
             </div>
-            <div class="container">
-                <span class="text-muted">Copyright @Collin K Kleest</span>
+            <div class="icon" data-toggle="tooltip" data-placement="top" title="Read my blogs!">
+                <a href="https://dev.to/collinkleest">
+                    <img src="https://img.icons8.com/color/64/000000/devpost.png" alt="dev.to" width=62 height=61>
+                </a>
             </div>
-        </footer>
-        
+        </div>
+        <div class="container">
+            <span class="text-muted">Copyright @Collin K Kleest</span>
+        </div>
+    </footer>
+    <!--Footer-->
 
-        <!--Bootstrap scripts-->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
+    <!--Bootstrap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <!--Bootstrap Scripts-->
+</body>
+
 </html>
