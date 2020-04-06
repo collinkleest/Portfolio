@@ -17,3 +17,6 @@ https://icons8.com/icon/38557/dev-post
 https://miro.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png
 https://icons8.com/icons/set/work
 https://icons8.com/icons/set/leader-1
+https://icons8.com/icons/set/fedora
+https://icons8.com/icons/set/docker
+https://icons8.com/icon/94497/laptop-coding
