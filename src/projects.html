@@ -59,116 +59,164 @@
         </nav>
         <!--Navigation Bar-->
 
+
+
+        <!--Page Jumbotron Introduction-->
         
-        <h1 class="display-3" style="text-align: center;">My Projects</h1>
+        <div class="jumbotron jumbotron-fluid text-center">
+            <h1 class="display-2"> My Projects! </h1>
+            <p class="lead"> Check out all my projects, all of which are open source! </p>
+            <p class="lead">
+                My projects cover a wide range of topics; web development, programming, networking, and hardware.
+            </p>
+        </div>
+
+        <!--Page Jumbotron Introduction-->
+
+
+        <!--Project Navigation / Filter -->
+        <div class="container justify-content-center py-5 my-5">    
+            <nav class="nav nav-pills">
+                <a class="nav-link active">All</a>
+                <a class="nav-link"> Programming </a>
+                <a class="nav-link">Networking</a>
+                <a class="nav-link">Hardware</a>
+                <a class="nav-link">Web Development</a>
+            </nav>
+        </div>
+        <!--Project Navigation / Filter -->
+        
 
         <!--Project Cards-->
         <!--Card Deck 1-->
+        <div class="container">
+            <div class="card-deck">
+                <div class="card text-center border-dark">
+                    <div class="card-header">Programming</div>
+                    <img class="card-img-top" alt="python" style="height:400px;" src="../img/card-images/python-logo.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Github CLI Automation</h5>
+                        <p class="card-text"> 
+                            In this project I created a github command line automation tool.
+                            This tool uses the github api to automate github commands. 
+                        </p>
+                        <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/GitHub_CLI_Automator"> Github</a>
+                        <a class="btn btn-danger" target="_blank" href="https://www.youtube.com/watch?v=rVKwyefjIts&t=15s"> Youtube</a>
+                    </div>
+                </div>
+
+                <div class="card text-center border-dark">
+                    <div class="card-header">Web Development</div>
+                    <img class="card-img-top" alt="python" style="height:400px;" src="../img/card-images/port-stack.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">
+                            This is the website you are currently looking at!
+                            Take a look at the source code for my portfolio!
+                            Built with HTML5, CSS3, Bootstrap, Sass, and Bootstrap.
+                        </p>
+                        <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/portfolio">Github</a>
+                    </div>
+                </div>
+
+                <div class="card text-center border-dark">
+                    <div class="card-header">Hardware / Programming</div>
+                    <img class="card-img-top" style="height:400px;" alt="python" src="../img/card-images/rpi.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Raspberry Pi Power Monitoring System</h5>
+                        <p class="card-text">
+                            Check out my work on a creating a power monitoring system with the Raspberry Pi and Python.
+                            This system sends out an automated message when it detects a power outage or a flood risk.
+                        </p>
+                        <a class="btn btn-primary" href="https://github.com/collinkleest/Raspberry-Pi-Power-Monitor">Github</a>
+                    </div>
+                </div>
+
+                
+            </div>
+            <!--Card Deck 1-->
+            <br />
+            <!--Card Deck 2-->
+            <div class="card-deck">
+                <div class="card text-center border-dark">
+                    <div class="card-header">Networking</div>
+                    <img class="card-img-top" alt="python" style="height:400px;" src="../img/card-images/kong.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Kong API Gateway</h5>
+                        <p class="card-text">
+                            This project has documentation of my defualt setup and some custom configureation
+                            of the Kong API Gateway.
+                            The technologies used main technologies used in this project were Konga Web GUI, MySQL Database
+                            and Kong Open Source Gateway.
+                        </p>
+                        <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/Kong-API-Gateway">Github</a>
+                    </div>
+                </div>
+                <div class="card text-center border-dark">
+                    <div class="card-header">Web Development</div>
+                    <img class="card-img-top" alt="python" src="../img/card-images/lit-element.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Component Demo</h5>
+                        <p class="card-text">
+                           For this mini project I created a web component using Lit Element.
+                           I created a youtube video, dev.to article, and a github repository
+                           to demostrate this project.
+                        </p>
+                        <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/lit-element-demo">Github</a>
+                        <a class="btn btn-danger" target="_blank" href="https://www.youtube.com/watch?v=8gMDhXWMxRg&t=2s">Youtube</a>
+                        <a class="btn btn-info" target="_blank" href="https://dev.to/collinkleest/how-to-build-a-basic-web-component-with-lit-element-30hl">Dev.to</a>
+                    </div>
+                </div>
+                <div class="card text-center border-dark">
+                    <div class="card-header">Networking</div>
+                    <img class="card-img-top" alt="python" src="../img/card-images/fedora.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Home Server Build</h5>
+                        <p class="card-text">
+                            This home server was built with a PC I scrapted together and built. 
+                            The home server was initially used as a file server then it was used as a web server.
+                            Now I use it as a multi purpose linux server.
+                        </p>
+                        <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/Multi-Use-Home-Server-Project">Github</a>
+                    </div>
+                </div>
+                
+            </div>
         
-        <div class="card-deck">
-            <div class="card text-center">
-                <div class="card-header">Programming</div>
-                <img class="card-img-top" alt="python" style="height:400px;" src="../img/card-images/python-logo.png">
-                <div class="card-body">
-                    <h5 class="card-title">Github CLI Automation</h5>
-                    <p class="card-text"> 
-                        In this project I created a github command line automation tool.
-                        This tool uses the github api to automate github commands. 
-                    </p>
-                    <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/GitHub_CLI_Automator"> Github</a>
-                    <a class="btn btn-danger" target="_blank" href="https://www.youtube.com/watch?v=rVKwyefjIts&t=15s"> Youtube</a>
-                </div>
-            </div>
-            
-            <div class="card text-center">
-                <div class="card-header">Web Development</div>
-                <img class="card-img-top" alt="python" style="height:400px;" src="../img/card-images/port-stack.png">
-                <div class="card-body">
-                    <h5 class="card-title">Portfolio Website</h5>
-                    <p class="card-text">
-                        This is the website you are currently looking at!
-                        Take a look at the source code for my portfolio!
-                        Built with HTML5, CSS3, Bootstrap, Sass, and Bootstrap.
-                    </p>
-                    <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/portfolio">Github</a>
-                </div>
-            </div>
+        <!--Card Deck 2-->
 
-            <div class="card text-center">
-                <div class="card-header">Hardware / Programming</div>
-                <img class="card-img-top" style="height:400px;" alt="python" src="../img/card-images/rpi.png">
-                <div class="card-body">
-                    <h5 class="card-title">Raspberry Pi Power Monitoring System</h5>
-                    <p class="card-text">
-                        Check out my work on a creating a power monitoring system with the Raspberry Pi and Python.
-                        This system sends out an automated message when it detects a power outage or a flood risk.
-                    </p>
-                    <a class="btn btn-primary" href="https://github.com/collinkleest/Raspberry-Pi-Power-Monitor">Github</a>
+        <!--Card Deck 3-->
+            <div class="card-deck">
+                <div class="card text-center border-dark">
+                    <div class="card-header">Programming</div>
+                    <img class="card-img-top" alt="python" src="../img/card-images/leetcode.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Leet Code 30 Day Challenge</h5>
+                        <p class="card-text">
+                            This project is more of programming practice, I dedicated myself to a thirty day programmign challenge during the COVID19 pandemic.
+                            Most of the programming deals with datastructures and algorithms, I choose to do most problems in Java or Python and/or both.
+                        </p>
+                        <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/LeetCode-30DayChallenge">Github</a>
+                    </div>
                 </div>
-            </div>
-
-            <div class="card text-center">
-                <div class="card-header">Networking</div>
-                <img class="card-img-top" alt="python" style="height:400px;" src="../img/card-images/kong.png">
-                <div class="card-body">
-                    <h5 class="card-title">Kong API Gateway</h5>
-                    <p class="card-text">
-                        This project has documentation of my defualt setup and some custom configureation
-                        of the Kong API Gateway.
-                        The technologies used main technologies used in this project were Konga Web GUI, MySQL Database
-                        and Kong Open Source Gateway.
-                    </p>
-                    <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/Kong-API-Gateway">Github</a>
+                <div class="card text-center border-dark">
+                    <div class="card-header">Web Development</div>
+                    <img class="card-img-top" alt="sass" src="../img/card-images/sass.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Sass Demostration</h5>
+                        <p class="card-text">
+                            This demonstration was based around the CSS precompiler called SASS.
+                            I go over sass variables, and sass nesting. 
+                            I also talk about SCSS and the differences between sass and scss.
+                        </p>
+                        <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/sass_demo">Github</a>
+                        <a class="btn btn-danger" target="_blank" href="https://www.youtube.com/watch?v=-CRlmdJauY0">Youtube</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <!--Card Deck 1-->
-        <br />
-        <!--Card Deck 2-->
-        <div class="card-deck">
-            <div class="card text-center">
-                <div class="card-header">Web Development</div>
-                <img class="card-img-top" alt="python" src="../img/card-images/lit-element.png">
-                <div class="card-body">
-                    <h5 class="card-title">Web Component Demo</h5>
-                    <p class="card-text">
-                       For this mini project I created a web component using Lit Element.
-                       I created a youtube video, dev.to article, and a github repository
-                       to demostrate this project.
-                    </p>
-                    <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/lit-element-demo">Github</a>
-                    <a class="btn btn-danger" target="_blank" href="https://www.youtube.com/watch?v=8gMDhXWMxRg&t=2s">Youtube</a>
-                    <a class="btn btn-info" target="_blank" href="https://dev.to/collinkleest/how-to-build-a-basic-web-component-with-lit-element-30hl">Dev.to</a>
-                </div>
-            </div>
-            <div class="card text-center">
-                <div class="card-header">Networking</div>
-                <img class="card-img-top" alt="python" src="../img/card-images/fedora.png">
-                <div class="card-body">
-                    <h5 class="card-title">Home Server Build</h5>
-                    <p class="card-text">
-                        This home server was built with a PC I scrapted together and built. 
-                        The home server was initially used as a file server then it was used as a web server.
-                        Now I use it as a multi purpose linux server.
-                    </p>
-                    <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/Multi-Use-Home-Server-Project">Github</a>
-                </div>
-            </div>
-            <div class="card text-center">
-                <div class="card-header">Programming</div>
-                <img class="card-img-top" alt="python" src="../img/card-images/leetcode.png">
-                <div class="card-body">
-                    <h5 class="card-title">Leet Code 30 Day Challenge</h5>
-                    <p class="card-text">
-                        This project is more of programming practice, I dedicated myself to a thirty day programmign challenge during the COVID19 pandemic.
-                        Most of the programming deals with datastructures and algorithms, I choose to do most problems in Java or Python and/or both.
-                    </p>
-                    <a class="btn btn-primary" target="_blank" href="https://github.com/collinkleest/LeetCode-30DayChallenge">Github</a>
-                </div>
-            </div>
-            
-        </div>
-        <!--Card Deck 2-->
+        <!--Card Deck 3-->
+
         <!--Project Cards-->
 
         <!--Footer-->

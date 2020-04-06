@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/collinkleest/portfolio#readme",
   "dependencies": {
+    "@lrnwebcomponents/git-corner": "^2.6.3",
     "sass": "^1.26.3"
   }
 }
