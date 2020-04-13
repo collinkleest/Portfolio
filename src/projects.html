@@ -74,26 +74,28 @@
         <!--Page Jumbotron Introduction-->
 
 
-        <!--Project Navigation / Filter -->
-        
-        <!--<div class="container justify-content-center py-5 my-5">    
-            <nav class="nav nav-pills flex-column flex-md-row justify-content-center">
-                <a class="nav-link active" data-toggle="collapse.show" data-target="all">All</a>
-                <a class="nav-link" data-toggle="collapse" data-target=".n-prg"> Programming </a>
-                <a class="nav-link" data-toggle="collapse" data-target=".n-net">Networking</a>
-                <a class="nav-link" data-toggle="collpase" data-target=".n-hard">Hardware</a>
-                <a class="nav-link" data-toggle="collapse" data-target=".n-web">Web Development</a>
-            </nav>
-        </div>--!>
-        <!--Project Navigation / Filter -->
-        
+        <!--Filter Section-->
+        <!--
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="all-pill" data-toggle="pill" data-target=".all" role="tab" aria-controls="pills-home" aria-selected="true">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" type="button" data-toggle="collapse" data-target=".n-prg" aria-expanded="true" area-controls="web-dev1">Programing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Web Development</a>
+            </li>
+          </ul>
+          -->
+        <!--FilterSection-->        
 
         <!--Project Cards-->
         
         <div class="container">
             <div class="row justify-content-center">      
                 <!--Card Deck 1-->
-                <div class="col-md-6 col-lg-4 all n-net n-web n-hard">
+                <div class="col-md-6 col-lg-4 ">
                     <div class="card text-center border-dark">
                         <div class="card-header">Programming</div>
                         <img class="card-img-top" alt="python" style="height:400px;" src="../img/card-images/python-logo.png">
@@ -108,8 +110,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 n-prg all n-net n-hard">    
-                    <div class="card text-center border-dark">
+                <div class="col-md-6 col-lg-4 ">    
+                    <div class="card text-center border-dark n-prg" id="web-dev1">
                         <div class="card-header">Web Development</div>
                         <img class="card-img-top" alt="python" style="height:400px;" src="../img/card-images/port-stack.png">
                         <div class="card-body">
@@ -123,7 +125,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 all n-net n-web"> 
+                <div class="col-md-6 col-lg-4"> 
                     <div class="card text-center border-dark">
                         <div class="card-header">Hardware / Programming</div>
                         <img class="card-img-top" style="height:400px;" alt="python" src="../img/card-images/rpi.png">
@@ -138,10 +140,10 @@
                     </div>
                 </div>
                 
-            
+                
                 <!--Card Deck 1-->
                 <!--Card Deck 2-->
-                <div class="col-md-6 col-lg-4 n-prg n-web all n-hard">   
+                <div class="col-md-6 col-lg-4 ">   
                     <div class="card text-center border-dark">
                         <div class="card-header">Networking</div>
                         <img class="card-img-top" alt="python" style="height:400px;" src="../img/card-images/kong.png">
@@ -157,7 +159,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 n-prg all n-net n-hard"> 
+                <div class="col-md-6 col-lg-4 "> 
                     <div class="card text-center border-dark">
                         <div class="card-header">Web Development</div>
                         <img class="card-img-top" alt="python" src="../img/card-images/lit-element.png">
@@ -174,7 +176,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 n-prg n-web n-web all"> 
+                <div class="col-md-6 col-lg-4"> 
                     <div class="card text-center border-dark">
                         <div class="card-header">Networking</div>
                         <img class="card-img-top" alt="python" src="../img/card-images/fedora.png">
@@ -193,7 +195,7 @@
         
                 <!--Card Deck 2-->
                 <!--Card Deck 3-->
-                <div class="col-md-6 col-lg-4 n-web n-hard n-net all"> 
+                <div class="col-md-6 col-lg-4"> 
                     <div class="card text-center border-dark">
                         <div class="card-header">Programming</div>
                         <img class="card-img-top" alt="python" src="../img/card-images/leetcode.png">
@@ -207,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 n-prg n-net n-hard all"> 
+                <div class="col-md-6 col-lg-4"> 
                     <div class="card text-center border-dark n-prg">
                         <div class="card-header">Web Development</div>
                         <img class="card-img-top" alt="sass" src="../img/card-images/sass.png">
