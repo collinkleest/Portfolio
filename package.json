@@ -18,6 +18,7 @@
   "homepage": "https://github.com/collinkleest/portfolio#readme",
   "dependencies": {
     "@lrnwebcomponents/git-corner": "^2.6.3",
+    "animate.css": "^4.1.0",
     "sass": "^1.26.3"
   }
 }
