@@ -3,12 +3,9 @@
 
 <head>
     <!--CSS DEFINITIONS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" />
     <!------------------->
 
 
@@ -97,25 +94,27 @@
     <!--Footer-->
     <footer class="footer">
         <div class="footer-icons">
-            <div class="icon" data-toggle="tooltip" data-placement="top" title="Visit my Linkedin!">
-                <a href="https://linkedin.com/in/collinkleest">
-                    <img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" alt="linkedin logo" width=64
-                        height=64>
+            <div class="icon footer-icon" data-toggle="tooltip" data-placement="top" title="Visit my Linkedin!">
+                <a href="https://linkedin.com/in/collinkleest" target="_blank">
+                    <img src="./src/assets/images/icons/svgs/footer/linkedin.svg" alt="linkedin logo" width=55
+                        height=55>
                 </a>
             </div>
-            <div class="icon" data-toggle="tooltip" data-placement="top" title="Checkout my code!">
-                <a href="https://github.com/collinkleest">
-                    <img src="https://img.icons8.com/color/96/000000/github--v1.png" alt="github" width=55 height=55>
+
+            <div class="icon footer-icon" data-toggle="tooltip" data-placement="top" title="Checkout my code!">
+                <a href="https://github.com/collinkleest" target="_blank">
+                    <img src="./src/assets/images/icons/svgs/footer/github.svg" alt="github" width=55 height=55>
                 </a>
             </div>
-            <div class="icon" data-toggle="tooltip" data-placement="top" title="Watch my videos!">
-                <a href="https://www.youtube.com/channel/UCmTsz3Z6GxzTxfwGTz7nKkg?view_as=subscriber">
-                    <img src="https://img.icons8.com/cotton/128/000000/youtube.png" alt="youtube" width=64 height=64>
+
+            <div class="icon footer-icon" data-toggle="tooltip" data-placement="top" title="Watch my videos!">
+                <a href="https://www.youtube.com/channel/UCmTsz3Z6GxzTxfwGTz7nKkg?view_as=subscriber" target="_blank">
+                    <img src="./src/assets/images/icons/svgs/footer/youtube.svg" alt="youtube" width=64 height=64>
                 </a>
             </div>
-            <div class="icon" data-toggle="tooltip" data-placement="top" title="Read my blogs!">
-                <a href="https://dev.to/collinkleest">
-                    <img src="https://img.icons8.com/color/64/000000/devpost.png" alt="dev.to" width=62 height=61>
+            <div class="icon footer-icon" data-toggle="tooltip" data-placement="top" title="Read my blogs!">
+                <a href="https://dev.to/collinkleest" target="_blank">
+                    <img src="./src/assets/images/icons/svgs/footer/devto.svg" alt="dev.to" width=62 height=61>
                 </a>
             </div>
         </div>
@@ -127,20 +126,15 @@
 
     <!--Web Component-->
     <script type="module" src="node_modules/@lrnwebcomponents/git-corner/git-corner.js"></script>
-    <script>window.__appCDN="https://cdn.webcomponents.psu.edu/cdn/";window.__appForceUpgrade=false;</script><script src="https://cdn.webcomponents.psu.edu/cdn/build.js"></script>
+    <script>window.__appCDN = "https://cdn.webcomponents.psu.edu/cdn/"; window.__appForceUpgrade = false;</script>
+    <script src="https://cdn.webcomponents.psu.edu/cdn/build.js"></script>
     <!--Web Component-->
 
 
     <!--Bootstrap Scripts-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <!--Bootstrap Scripts-->
 </body>
 

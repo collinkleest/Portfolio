@@ -4,7 +4,8 @@
   "description": "This repository is for my personal portfolio. This portfolio is being built with HTML5, CSS3, Vanilla Javascript and Bootstrap.",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch sass/_styles.sass:css/styles.css sass/_animate.sass:css/animate.css sass/_main.sass:css/main.css"
+    "sass": "sass --watch ./src/sass/main.sass:./src/css/main.css",
+    "start": "lite-server --config ./lite-server.config.json"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,12 @@
   "dependencies": {
     "@lrnwebcomponents/git-corner": "^2.6.3",
     "animate.css": "^4.1.0",
+    "bootstrap": "^4.5.2",
     "sass": "^1.26.3"
+  },
+  "devDependencies": {
+    "jquery": "^3.5.1",
+    "lite-server": "^2.5.4",
+    "popper.js": "^1.16.1"
   }
 }
